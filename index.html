@@ -2,52 +2,299 @@
 <html lang="en">
 
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba Bootstrap</title>
+
+    <!--DESCRIPTION-->
+
+    <meta name="description"
+        content="Materos Web, la red matera mas grande del mundo, con los mejores productos al mejor precio y la mejor atencion al cliente">
+
+    <!--KEYWORDS-->
+    <meta name="keywords" content=" mate, mates, infusion, cliente, clientes">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/LautiSeverino/PreEntrega2-Severino.git">
+    <meta property="og:title" content="Materos Web">
+    <meta property="og:description"
+        content="Materos Web, la red matera mas grande del mundo, con los mejores productos al mejor precio y la mejor atencion al cliente">
+    <meta property="og:image" content="./assets/head-img.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://github.com/LautiSeverino/PreEntrega2-Severino.git">
+    <meta property="twitter:title" content="Materos Web">
+    <meta property="twitter:description"
+        content="Materos Web, la red matera mas grande del mundo, con los mejores productos al mejor precio y la mejor atencion al cliente">
+    <meta property="twitter:image" content="./assets/head-img.jpg">
+
+
+    <!--LINK  DE FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/b31b9e8c91.js" crossorigin="anonymous"></script>
+
+    <!--LINK  DE BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!--LINK  DE CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--LINK  DE ICONO-->
+    <link rel="icon" type="image/ico" href="./assets/mates.ico">
+
+    <title>Materos Web - Inicio</title>
+
 </head>
 
 <body>
 
-    <section class="hero">
-        <div class="hero__container">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Materos Web</a>
+
+                <div class="navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contact-us.html">Contactanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/products.html">Productos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
 
 
-            <h1 class="hero__title">Materos Web</h1>
 
+
+
+
+
+
+
+
+
+
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./asset/fondo-principal-mate1.jpg" class="d-block" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5>Materos  Web</h5>
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1544240841-280e8f840f4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" class="" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5>Materos  Web</h5>
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1585744259332-111384f5def9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80" class="" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5>Materos  Web</h5>
+                  
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+
+
+        <section class="info">
+
+
+            <img src="./assets/img-info.jpg" alt="chica tomando mate">
+
+
+            <div class="info__text">
+
+                <p>Somos la red matera mas grande del mundo, desde nuestra fundacion en 2013. Contamos con la mas amplia
+                    variedad en productos de calidad al mejor precio, acompañando a nuestros clientes a la hora de
+                    realizar su compra
+                <p>
+            </div>
+
+
+        </section>
+
+
+        <section class="cards-info">
+
+            <h2>Conoce mas acerca de nosotros</h2>
+
+            <div class="cards">
+
+
+                <div class="card mt-5 mb-5">
+                    <img src="https://images.unsplash.com/photo-1444157545135-c045be691b05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80 class="card-img-top" alt="mate recien preparado">
+                    <div class="card-body">
+                        <p class="card-title">Amplia variedad en mates</p>
+                        <p class="card-text">Contamos con la variedad mas amplia de mates de todo el mercado matero.
+                            Descubri el perfecto para vos en nuestro apartado de <b>Productos</b> donde te abriremos las
+                            puertas al mundo matero</p>
+                        <div class="d-grid gap-2 col-4 mx-auto">
+                            <a href="./pages/products.html" class="btn btn-success">Productos</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card mt-5 mb-5">
+                    <img src="./assets/contacto-img.jpg" class="card-img-top" alt="jovenes tomando mate en grupo">
+                    <div class="card-body">
+                        <p class="card-title">Atencion al cliente</p>
+                        <p class="card-text">Tenes dudas acerca de que como funciona nuestra empresa. Entonces te
+                            invitamos a que nos preguntes en nuestro apartado de <b>Contacto</b> donde te responderemos
+                            al instante via E-Mail.</p>
+                        <div class="d-grid gap-2 col-4 mx-auto">
+                            <a href="./pages/contact-us.html" class="btn btn-success">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <section class="clients-info">
+
+            <h3>Nuestro clientes</h3>
+
+            <div class="clients">
+
+                <div class="client">
+
+                    <img src="./assets/griezmann-client__img.jpg" alt="Antoine Griezmann tomando mate">
+
+                    <div class="client__text">
+
+                        <h4>Antoine Griezmann</h4>
+
+                        <p>
+                            <i class="fa-solid fa-quote-left"></i> Los mejores mates que he probado. <i
+                                class="fa-solid fa-quote-right"></i>
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="client">
+
+                    <img src="./assets/messi-client__img.jpg" alt="Lionel Messi tomando mate">
+
+                    <div class="client__text">
+
+                        <h4>Lionel Messi</h4>
+
+
+                        <p>
+                            <i class="fa-solid fa-quote-left"></i> La Web matera con los mejores mates del mercado. <i
+                                class="fa-solid fa-quote-right"></i>
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class="client">
+
+                    <img src="./assets/luis-suarez-client__img.jpg" alt="Luis Suarez tomando mate">
+
+                    <div class="client__text">
+
+                        <h4>Luis Suarez</h4>
+
+                        <p>
+                            <i class="fa-solid fa-quote-left"></i> La mejor atencion al cliente, responden de manera
+                            clara y rapida. <i class="fa-solid fa-quote-right"></i>
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+
+
+        <div class="footer__text">
+
+            <p>All rights reserved © Materos Web</p>
+
+
+
+            <div class="footer__imgs">
+
+                <div class="footer__img">
+
+                    <a target="_blank" href="https://www.instagram.com"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+
+                    <a target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+
+                    <a target="_blank" href="https://www.twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+
+                    <a target="_blank" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+
+            </div>
 
         </div>
-    </section>
 
+    </footer>
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./asset/fondo-principal-mate1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./asset/fondo-principal-mate2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./asset/fondo-principal-mate3.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
+
 
 </body>
 
