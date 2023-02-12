@@ -44,7 +44,7 @@
 
 .carousel-inner {
     width: 100%;
-    height: 70vh;
+    height: 65vh;
     display: flex;
 }
 
@@ -690,7 +690,7 @@ iframe {
 
     .carousel-inner {
         width: 100%;
-        height: 70vh;
+        height: 65vh;
         display: flex;
     }
     
@@ -716,7 +716,7 @@ iframe {
     
     .carousel-caption h5 {
         justify-content: center;
-        margin-bottom: 225px;
+        margin-top: 216px;
         font-weight: bold;
         letter-spacing: 5px;
         font-size: 40px;
@@ -1073,7 +1073,7 @@ textarea {
 
     .carousel-inner {
         width: 100%;
-        height: 70vh;
+        height: 65vh;
         display: flex;
     }
     
@@ -1099,7 +1099,8 @@ textarea {
     
     .carousel-caption h5 {
         justify-content: center;
-        margin-bottom: 260px;
+        margin-bottom: 242px;
+        margin-top: 0;
         font-weight: bold;
         letter-spacing: 5px;
         font-size: 40px;
@@ -1456,7 +1457,6 @@ textarea {
 
 
 */
-
 
 
 
